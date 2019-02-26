@@ -10,7 +10,7 @@ driver = webdriver.Chrome(chrome_path)
 driver.get('https://www.depop.com/')
 time.sleep(3)
 [elm.click() for elm in driver.find_elements_by_xpath("""//span[text()="Login"]""") if elm.text=="Login"]      #Clicks login button
-home_user="yourusernamehere"
+home_user="cam0901"
 input("Type in login details, then press enter, then press enter to continue running script")
 mode = input("select mode (following, unfollowing):")
 
