@@ -5,7 +5,7 @@ import time
 import sys
 
 
-chrome_path = r"your\path\to\chromedriver.exe"
+chrome_path = r"C:\Users\Cam\AppData\Local\Temp\Temp1_chromedriver_win32.zip\chromedriver.exe"
 driver = webdriver.Chrome(chrome_path)
 driver.get('https://www.depop.com/')
 time.sleep(3)
